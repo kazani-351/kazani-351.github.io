@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gas Tracker</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./xyz.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Gas Tracker</h1>
+        <h3 id="time"></h3>
+    </div>
+
+    <div class="loader-container" id="loader">
+        <div class="loader">
+          <div class="square one"></div>
+          <div class="square two"></div>
+         </div>
+      </div>
+
+    <div class="main loading" id="main">
+        <p id ="price"></p>
+        <!-- <div class="wrapper-1">
+            <div class="glass" id ="helloworld">Harshit</div>
+            <div class="glass">Paras</div>
+            <div class="glass">Pranjal</div>
+        </div> -->
+        <div class="wrapper-2">
+            <div class="glass">
+                <h2 id ="low">Low</h2>
+                <p id="SafeGas" color="white"></p>
+                <p id="LowFee" color="white"></p>
+                <p id ="Lowtime"></p>
+            </div>
+            <div class="glass">
+                <h2 id = "avg">Average</h2>
+                <p id="ProposedGas" color="white"></p>
+                <p id="MediumFee"></p>
+                <p id ="MedTime"></p>
+            </div>
+            <div class="glass">
+                <h2  id ="fast">High</h2>
+                <p id="FastGas" color = "white"></p>
+                <p id="FastFee"></p>
+                <p id="FastTime"></p>
+            </div>
+        </div>
+        <div class="wrapper-3"> 
+            <h2>ETH/USD</h2>
+            <div id ="prices"></div>
+            <!-- <div class="speedo">
+                <div class="face">
+                  <div class="needle"></div>
+                </div>
+              </div> -->
+        </div> 
+    </div>
+    <script src="./script2.js"></script>
+</body>
+</html>
+
